@@ -11,7 +11,9 @@ The system consists of:
 Both the GPS and sonar output standard [NMEA](https://www.nmea.org/) sentences, whith the code collects, parses and stores.
 
 Data is recorded to a csv file with the following format:
+
 Time, Latitude, Longitude, Depth, Temperature
+
 2021-07-22 13:27:56, 39.080554, -86.430522, 3.8, None
 
 The data is usually post-processed to convert depth to altitude (with adjustment for current lake level).  For Lake Monroe (main site of study), the standard pool is 538 ft, and depths are adjusted relative to this elevation.
